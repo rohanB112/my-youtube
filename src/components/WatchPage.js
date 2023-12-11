@@ -75,10 +75,6 @@ const WatchPage = () => {
               </div>
             </div>
 
-            <span className="p-2 bg-red-600">
-              {process.env.REACT_APP_KEY} : key
-            </span>
-
             <CommentsContainer />
           </div>
         </div>

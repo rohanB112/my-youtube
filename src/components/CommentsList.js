@@ -2,7 +2,7 @@ import React from "react";
 import Comment from "./Comment";
 
 const CommentsList = ({ comments }) => {
-  return comments.map((comment, index) => (
+  return comments?.map((comment, index) => (
     <div key={index}>
       <Comment data={comment} />
       <div className="pl-10 border border-l-black">

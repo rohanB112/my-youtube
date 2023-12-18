@@ -70,7 +70,7 @@ const Head = () => {
           {showSuggestions && (
             <div className="absolute bg-white mx-1 my-2 p-5 border border-gray-100 rounded-lg w-[450px]">
               <ul>
-                {suggestions.map((value) => (
+                {suggestions?.map((value) => (
                   <li key={value}>{value}</li>
                 ))}
               </ul>

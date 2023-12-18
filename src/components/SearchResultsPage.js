@@ -20,7 +20,7 @@ const SearchResultsPage = () => {
 
   return (
     <div>
-      {searchResults.map((video) => (
+      {searchResults?.map((video) => (
         <div>
           <SearchVideoCard info={video} />
           {console.log(video)}

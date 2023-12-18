@@ -18,7 +18,7 @@ const ButtonList = () => {
 
   return (
     <div className="flex mx-6 my-3">
-      {list.map((name) => {
+      {list?.map((name) => {
         return <Button name={name} key={name} />;
       })}
     </div>
